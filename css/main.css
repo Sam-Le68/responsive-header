@@ -1,0 +1,51 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-family: Ubuntu, sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+h1 {
+  display: block;
+  background-color: #18294f;
+  color: #fff;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  display: block;
+  background-color: #18294f;
+  color: #6c8fe0;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #6c8fe0;
+  color: #fff;
+}
