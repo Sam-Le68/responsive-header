@@ -22,28 +22,34 @@ body {
   background-color: #fff;
 }
 
-h1 {
-  display: block;
+header {
   background-color: #18294f;
-  color: #fff;
   text-align: center;
   padding: .3em 0 .5em;
 }
 
+h1 {
+  font-size: 2rem;
+  color: #fff;
+}
+
 ul {
-  display: flex;
-  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
 }
 
 li {
   list-style-type: none;
+  text-align: left;
 }
 
 a {
+  font-size: 1.125rem;
   display: block;
   background-color: #18294f;
   color: #6c8fe0;
   text-decoration: none;
+  padding: .5em .75em;
 }
 
 a:hover {
