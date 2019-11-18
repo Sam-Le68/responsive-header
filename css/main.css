@@ -26,7 +26,7 @@ header {
   background-color: #18294f;
   text-align: center;
   padding: .3em 0 .5em;
-  color: white;
+  color: #fff;
 }
 
 header h1 {
@@ -34,9 +34,10 @@ header h1 {
   color: #fff;
 }
 
- nav ul {
+nav ul {
   margin: 0;
   padding: 0;
+  font-size: 1.125rem;
 }
 
 li {
@@ -51,9 +52,10 @@ nav a {
   color: #6c8fe0;
   text-decoration: none;
   padding: .5em .75em;
+  white-space: normal;
 }
 
- nav a:hover {
+nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
 }
